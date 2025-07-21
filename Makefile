@@ -1,3 +1,4 @@
+jj
 ifneq ("$(wildcard /usr/bin/nvcc)", "")
 CUDAPATH ?= /usr
 else ifneq ("$(wildcard /usr/local/cuda/bin/nvcc)", "")
